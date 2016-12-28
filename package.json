@@ -1,6 +1,6 @@
 {
   "name": "ohm-r",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "¿Do you know how many `ohms` and `tolerance` have your resistance? With ohm-r you just have to provide the colors and you are done!",
   "main": "lib/ohm-r.js",
   "directories": {
