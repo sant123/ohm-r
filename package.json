@@ -1,8 +1,11 @@
 {
   "name": "ohm-r",
   "version": "1.0.0",
-  "description": "Discover the capacitance of your resistance.",
+  "description": "¿Do you know how many `ohms` and `tolerance` have your resistance? With ohm-r you just have to provide the colors and you are done!",
   "main": "lib/ohm-r.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha test/ohm-r-test.js",
     "posttest": "eslint \"lib/**\" \"test/**\""
@@ -19,13 +22,21 @@
     "name": "Santiago Aguilar Hernández",
     "email": "santiago777@outlook.com"
   },
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sant123/ohm-r.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sant123/ohm-r/issues"
+  },
+  "homepage": "https://github.com/sant123/ohm-r#readme",
+  "dependencies": {
+    "numeral": "^2.0.4"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.12.2",
     "mocha": "^3.2.0"
   },
-  "dependencies": {
-    "numeral": "^2.0.4"
-  }
+  "license": "MIT"
 }
