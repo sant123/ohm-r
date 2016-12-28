@@ -1,0 +1,31 @@
+{
+  "name": "ohm-r",
+  "version": "1.0.0",
+  "description": "Discover the capacitance of your resistance.",
+  "main": "lib/ohm-r.js",
+  "scripts": {
+    "test": "mocha test/ohm-r-test.js",
+    "posttest": "eslint \"lib/**\" \"test/**\""
+  },
+  "bin": {
+    "ohm-r": "lib/cli.js"
+  },
+  "keywords": [
+    "ohm",
+    "ohms",
+    "resistance"
+  ],
+  "author": {
+    "name": "Santiago Aguilar Hernández",
+    "email": "santiago777@outlook.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "numeral": "^2.0.4"
+  }
+}
