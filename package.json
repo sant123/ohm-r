@@ -1,14 +1,14 @@
 {
   "name": "ohm-r",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "¿Do you know how many `ohms` and `tolerance` have your resistance? With ohm-r you just have to provide the colors and you are done!",
   "main": "lib/ohm-r.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/ohm-r-test.js",
-    "posttest": "eslint \"lib/**\" \"test/**\""
+    "test": "jest",
+    "lint": "eslint \"lib/**\" \"test/**\""
   },
   "bin": {
     "ohm-r": "lib/cli.js"
@@ -31,12 +31,11 @@
   },
   "homepage": "https://github.com/sant123/ohm-r#readme",
   "dependencies": {
-    "numeral": "^2.0.4"
+    "numeral": "^2.0.6"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^3.12.2",
-    "mocha": "^3.2.0"
+    "eslint": "^5.0.1",
+    "jest": "^23.3.0"
   },
   "license": "MIT",
   "typings": "./typings/ohm-r.d.ts"
