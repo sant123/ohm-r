@@ -9,10 +9,7 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
+        "linebreak-style": "off",
         "quotes": [
             "error",
             "double",
