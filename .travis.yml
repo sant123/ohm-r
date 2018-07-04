@@ -1,0 +1,9 @@
+language: node__js
+node__js:
+  - "9"
+cache:
+  directories:
+    - "node_modules"
+script:
+  - yarn test
+  - yarn lint
